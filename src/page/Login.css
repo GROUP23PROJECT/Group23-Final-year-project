@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container--main{
+    margin-top: 100px;
+}
+.container--main-h{
+
+        margin-left: 170px;
+        margin-right: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid; */
+        /* border-radius: 12px; */
+        /* box-shadow: 20px 20px 15px lightblue; */
+        /* background-color: rgb(112, 183, 199); */
+        opacity: 1;
+      
+}
+
+.img--container{
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+    border-radius: 12px;
+    border: 1.5px solid;
+    /* display: flex;
+    align-items: center;
+    flex-direction: row; */
+}
+.page--head{
+    font-size: 45px;
+}
+.details--image{
+    width: 450px;
+    height: 250px;
+    margin: 15px;
+    /* ma */
+}
+.input--form, select {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .form--label{
+    font-size: 24px;
+  }
+.form--main{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.input--sub {
+    width: 460px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+.input--sub:hover {
+    background-color: #45a049;
+  }
+.have--account{
+    font-size: 23px;
+    color: #060606;
+}
